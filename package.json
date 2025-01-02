@@ -1,23 +1,20 @@
 {
-  "name": "zotero-plugin-template",
-  "version": "3.0.3",
-  "description": "Zotero Plugin Template",
+  "name": "zotero-easyread",
+  "version": "0.0.0",
+  "description": "Zotero Plugin to make academic articles easier to read by removing in text citations",
   "config": {
-    "addonName": "Zotero Plugin Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate"
+    "addonName": "Zotero Easy Read",
+    "addonID": "easyread@sarah.com",
+    "addonRef": "easyread",
+    "addonInstance": "EasyRead",
+    "prefsPrefix": "extensions.zotero.easyread"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windingwind/zotero-plugin-template.git"
+    "url": "git+https://github.com/sarah-mcchesney/zotero-easyread.git"
   },
-  "author": "windingwind",
-  "bugs": {
-    "url": "https://github.com/windingwind/zotero-plugin-template/issues"
-  },
-  "homepage": "https://github.com/windingwind/zotero-plugin-template#readme",
+  "author": "sarah-mcchesney",
+  "homepage": "https://github.com/sarah-mcchesney/zotero-easyread#readme",
   "license": "AGPL-3.0-or-later",
   "scripts": {
     "start": "zotero-plugin serve",
